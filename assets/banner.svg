@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="WYRMFALL">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#070418"/><stop offset="1" stop-color="#170b40"/></linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#fff36b"/><stop offset=".7" stop-color="#3dffb4"/><stop offset="1" stop-color="#b06bff"/></linearGradient>
+    <radialGradient id="link" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff"/><stop offset=".4" stop-color="#3dffb4"/><stop offset="1" stop-color="#0c5a3c"/></radialGradient>
+    <radialGradient id="head" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff"/><stop offset=".4" stop-color="#fff36b"/><stop offset="1" stop-color="#7a6a10"/></radialGradient>
+    <radialGradient id="neb1"><stop offset="0" stop-color="#b06bff" stop-opacity=".3"/><stop offset="1" stop-color="#b06bff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="neb2"><stop offset="0" stop-color="#35d6ff" stop-opacity=".25"/><stop offset="1" stop-color="#35d6ff" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="bigglow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <g id="gem"><polygon points="0,-16 12,-9 13,6 0,16 -13,6 -12,-9" fill="#b06bff" stroke="#e9d6ff" stroke-width="1.2"/><polygon points="0,-16 12,-9 0,-3 -12,-9" fill="#fff" opacity=".35"/><polygon points="0,-3 13,6 0,16" fill="#000" opacity=".25"/></g>
+  </defs>
+  <rect width="1200" height="360" rx="14" fill="url(#bg)"/>
+  <circle cx="220" cy="90" r="300" fill="url(#neb1)"/><circle cx="1020" cy="280" r="320" fill="url(#neb2)"/>
+  <g fill="#fff" opacity=".7"><circle cx="90" cy="60" r="1.4"/><circle cx="310" cy="300" r="1"/><circle cx="520" cy="40" r="1.2"/><circle cx="700" cy="320" r="1.5"/><circle cx="880" cy="50" r="1"/><circle cx="1100" cy="120" r="1.4"/><circle cx="1010" cy="330" r="1"/><circle cx="160" cy="250" r="1.2"/><circle cx="430" cy="130" r="1"/><circle cx="780" cy="110" r="1"/></g>
+  <g filter="url(#glow)">
+    <use href="#gem" x="150" y="150"/><use href="#gem" x="1050" y="96"/><use href="#gem" x="1090" y="250"/><use href="#gem" x="250" y="292"/><use href="#gem" x="96" y="300"/><use href="#gem" x="930" y="300"/>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M70 62 H 500 Q 530 62 530 90 Q 530 118 560 118 H 1000" fill="none" stroke="#3dffb4" stroke-opacity=".4" stroke-width="12" stroke-linecap="round"/>
+    <g fill="url(#link)"><circle cx="70" cy="62" r="17"/><circle cx="113" cy="62" r="17"/><circle cx="156" cy="62" r="17"/><circle cx="199" cy="62" r="17"/><circle cx="242" cy="62" r="17"/><circle cx="285" cy="62" r="17"/><circle cx="328" cy="62" r="17"/><circle cx="371" cy="62" r="17"/><circle cx="414" cy="62" r="17"/><circle cx="457" cy="62" r="17"/><circle cx="500" cy="62" r="17"/><circle cx="530" cy="90" r="17"/><circle cx="560" cy="118" r="17"/><circle cx="603" cy="118" r="17"/><circle cx="646" cy="118" r="17"/><circle cx="689" cy="118" r="17"/><circle cx="732" cy="118" r="17"/><circle cx="775" cy="118" r="17"/><circle cx="818" cy="118" r="17"/><circle cx="861" cy="118" r="17"/><circle cx="904" cy="118" r="17"/><circle cx="947" cy="118" r="17"/></g>
+    <circle cx="992" cy="118" r="20" fill="url(#head)"/>
+    <circle cx="999" cy="111" r="4" fill="#10061e"/><circle cx="999" cy="125" r="4" fill="#10061e"/>
+  </g>
+  <text x="600" y="262" text-anchor="middle" font-family="Bahnschrift,'DIN Alternate','Avenir Next Condensed','Segoe UI',sans-serif" font-weight="800" font-size="150" letter-spacing="6" fill="url(#title)" stroke="#fff" stroke-opacity=".6" stroke-width="1.5" filter="url(#bigglow)">WYRMFALL</text>
+  <text x="600" y="312" text-anchor="middle" font-family="Bahnschrift,'Segoe UI',sans-serif" font-weight="600" font-size="22" letter-spacing="8" fill="#fff" opacity=".8">BREAK THE WYRM BEFORE IT REACHES YOU</text>
+  <g filter="url(#glow)" transform="translate(600 338)"><polygon points="0,-14 4,-3 12,10 4,6 0,9 -4,6 -12,10 -4,-3" fill="#35d6ff" stroke="#fff" stroke-width="1"/></g>
+</svg>

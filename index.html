@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>WYRMFALL</title>
+<meta name="description" content="WYRMFALL — a neon arcade shooter. Break the wyrm before it reaches you.">
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #03020a; }
+  body {
+    display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(ellipse at 50% 40%, #150a3a 0%, #070418 55%, #020108 100%);
+    touch-action: none; user-select: none; -webkit-user-select: none;
+  }
+  canvas {
+    display: block; cursor: none;
+    box-shadow: 0 0 80px rgba(120, 80, 255, .28), 0 0 0 1px rgba(255, 255, 255, .06);
+    border-radius: 6px;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" aria-label="WYRMFALL game"></canvas>
+<script src="game.js"></script>
+</body>
+</html>
