@@ -13,6 +13,8 @@
 
 ## Play it
 
+**▶ [Play in your browser](https://chrisbrooksbank.github.io/wyrmfall/)** — or run it locally:
+
 ```
 double-click index.html
 ```
